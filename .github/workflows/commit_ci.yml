@@ -3,7 +3,7 @@ name: Automatic Build on Commit
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ master try-to-fix ]
     paths-ignore:
       - '**.md'
       - '**.txt'
